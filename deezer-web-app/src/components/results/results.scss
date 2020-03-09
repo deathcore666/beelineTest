@@ -1,0 +1,76 @@
+.results-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.results-list {
+    width: 500px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #BDBDBD;
+}
+
+.list-item {
+    display: flex;
+    flex-direction: row;
+    margin: 8px;
+}
+
+.song-info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    align-self: center;
+    justify-content: space-between;
+
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.list-item > div:last-child {
+    margin-left: auto;
+    align-self: center;
+    
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .artist {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .artist-title {
+      color: grey;
+  }
+
+  .loading-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 62px;
+
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 22px;
+    color: grey;
+}
+
+.duration {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    width: 500px;
+    text-align: end;
+    color: grey;
+}

@@ -1,0 +1,71 @@
+{
+    "env": {
+      "browser": true,
+      "es6": true,
+      "node": true
+    },
+    "globals": {
+      "angular": 1,
+      "JSDataHttp": 1,
+      "JSData": 1
+    },
+    "extends": "airbnb-base",
+    "rules": {
+      "arrow-parens": [
+        "error",
+        "always"
+      ],
+      "indent": [
+        "error",
+        4,
+        {
+          "SwitchCase": 1
+        }
+      ],
+      "linebreak-style": [
+        "error",
+        "unix"
+      ],
+      "max-len": [
+        "error",
+        180,
+        4,
+        {
+          "ignoreUrls": true
+        }
+      ],
+      "one-var": [
+        "error",
+        "never"
+      ],
+      "no-param-reassign": [
+        "error",
+        {
+          "props": false
+        }
+      ],
+      "no-underscore-dangle": 0,
+      "object-shorthand": [
+        2,
+        "properties"
+      ],
+      "import/no-extraneous-dependencies": [
+        "error",
+        {
+          "devDependencies": true
+        }
+      ],
+      "strict": [
+        0,
+        "global"
+      ],
+      "comma-dangle": [
+        "error",
+        "never"
+      ],
+      "quote-props": [
+        "error",
+        "consistent"
+      ]
+    }
+  }
